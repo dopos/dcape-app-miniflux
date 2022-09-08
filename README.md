@@ -8,11 +8,11 @@
 [4]: https://img.shields.io/github/license/dopos/dcape-app-miniflux.svg
 [5]: LICENSE
 
-[miniflux](https://matrix-org.github.io/miniflux/) application package for [dcape](https://github.com/dopos/dcape).
+[miniflux](https://github.com/miniflux/v2) application package for [dcape](https://github.com/dopos/dcape).
 
 ## Docker image used
 
-* [matrixdotorg/miniflux-monolith](https://hub.docker.com/r/matrixdotorg/miniflux-monolith)
+* [miniflux/miniflux](https://hub.docker.com/r/miniflux/miniflux)
 
 ## Requirements
 
