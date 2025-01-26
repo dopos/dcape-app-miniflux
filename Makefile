@@ -7,10 +7,10 @@ CFG                ?= .env
 CFG_BAK            ?= $(CFG).bak
 
 #- App name
-APP_NAME           ?= miniflix
+APP_NAME           ?= miniflux
 
 # Hostname for external access
-APP_SITE           ?= rss.dev.lan
+APP_SITE           ?= rss.dev.test
 
 #- Docker image name
 IMAGE              ?= miniflux/miniflux
