@@ -10,5 +10,6 @@ services:
       - ADMIN_USERNAME=${USER_NAME}
       - ADMIN_PASSWORD=${USER_PASS}
       - BASE_URL=http://${APP_SITE}
+      - TRUSTED_REVERSE_PROXY_NETWORKS=${DCAPE_SUBNET}
     healthcheck:
       test: ["CMD", "/usr/bin/miniflux", "-healthcheck", "auto"]
